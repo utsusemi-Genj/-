@@ -1,0 +1,150 @@
+#main{
+    padding-left:80px;
+    height: 100%;
+}
+#main h1{
+    padding: 20px 0px;
+}
+
+#main p{
+    width: 95%;
+    padding-left: 30px;
+    line-height: 24px;
+}
+
+#main img{
+    display: block;
+    margin: 10px auto;
+}
+
+
+.img1{
+    width: 90%;
+    padding-top:20px ;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    display: flex;
+}
+.img1 li{
+    width: 40%;
+}
+.img1 li img{
+    border: 1px solid #ff0000;
+    border-radius: 5px;
+}
+
+.desc{
+    width: 90%;
+    margin: 0 auto;
+    padding-top:20px ;
+    padding-bottom: 20px;
+}
+.desc li{
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.desc li img{
+    display: block;
+    float: left;
+    margin-left: 100px;
+    margin-right: 50px;
+    border-radius: 5px;
+    border: 1px solid red;
+}
+.desc li p{
+    width: 1000px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.movie{
+    width: 90%;
+    padding-top:20px ;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    justify-content: space-around;
+    display: flex;
+    margin-bottom: 20px;
+}
+.movie li{
+    width: 18%;
+}
+
+.choice{
+    width: 100px;
+    position: fixed;
+    left: 33%;
+}
+.choice li{
+    line-height: 50px;
+    text-align: center;
+    background-color: rgba(0,0,0,0);
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+}
+.choice li a{
+    color: #202020;
+    display: block;
+}
+.choice li:hover{
+    background-color: rgba(255,0,0,0.2);
+}
+.choice li:hover a{
+    color: #ff0000;
+}
+.choice #Select{
+    border-color: #ff100e;
+    background-color: rgba(255,255,0,0.2);
+}
+.choice #Select:hover{
+    background-color: rgba(255,0,0,0.2);
+}
+
+.fam{
+    width: 300px;
+    margin: 20px auto;
+}
+.fam li{
+    line-height: 50px;
+    text-align: center;
+    background-color: rgba(0,0,0,0);
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+}
+.fam li a{
+    color: #202020;
+    display: block;
+}
+.fam li:hover{
+    background-color: rgba(255,0,0,0.2);
+}
+.fam li:hover a{
+    color: #ff0000;
+}
+
+
+#main table{
+    width: 700px;
+    margin: 20px auto;
+    margin-bottom: 100px;
+}
+#main table td,tr{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+#main table td{
+    height: 40px;
+    width :100px ;
+}
+.other-a{
+    color: #202020;
+    display: block;
+}
+.other-a:hover{
+    color: #ff0000;
+    display: block;
+    font-size: 20px;
+}
